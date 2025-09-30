@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text to Speech Converter</h1>
+        <textarea id="TextBox" placeholder="Wanna hear your text? Just write something..."></textarea>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="voiceSelect">Voice:</label>
+                <select id="voiceSelect"></select>
+            </div>
+            
+            <div class="control-group">
+                <label for="rate">Speed:</label>
+                <input type="range" id="rate" min="0.5" max="2" step="0.1" value="1">
+                <span id="rateValue">1</span>
+            </div>
+            
+            <div class="control-group">
+                <label for="pitch">Pitch:</label>
+                <input type="range" id="pitch" min="0.5" max="2" step="0.1" value="1">
+                <span id="pitchValue">1</span>
+            </div>
+            
+            <div class="control-group">
+                <label for="volume">Volume:</label>
+                <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+                <span id="volumeValue">1</span>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button id="speakBtn">Speak</button>
+            <button id="stopBtn">Stop</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="resumeBtn">Resume</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

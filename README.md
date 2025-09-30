@@ -23,7 +23,7 @@ Just type something and click “Speak” to hear your text.
 ---
 
 ## 🌐 Live Demo
-👉 [Click here](https://github.com/Mr-Syntax1/text-to-speech-app)
+👉 [Click here](https://mr-syntax1.github.io/text-to-speech-app/)
 
 
 

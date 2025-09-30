@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #cb356b, #bd3f32);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#TextBox {
+    width: 300px;
+    height: 100px;
+    font-size: 16px;
+    margin-bottom: 30px; /* فاصله از دکمه */
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    resize: none; /* جلوگیری از تغییر سایز */
+}
+
+button {
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(99, 67, 245);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:focus {
+    background-color: rgb(83, 49, 235);
+    transform: translateX(5px);
+    
+    outline: none;
+}

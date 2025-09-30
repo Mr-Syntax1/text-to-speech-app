@@ -1,7 +1,11 @@
 # 🎙️ Text-to-Speech Web App
 
-A clean, customizable **Text-to-Speech** (TTS) web app built using the **Web Speech API**.  
+A clean, customizable **Text-to-Speech** (TTS) web app built using the **Web Speech API**.
+
 This project started as a simple learning exercise and evolved into a more advanced app with multiple versions and features.
+
+![Uploading image.png…]()
+
 
 ---
 

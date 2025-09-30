@@ -4,7 +4,7 @@ A clean, customizable **Text-to-Speech** (TTS) web app built using the **Web Spe
 
 This project started as a simple learning exercise and evolved into a more advanced app with multiple versions and features.
 
-![img alt](<img width="841" height="768" alt="image" src="https://github.com/user-attachments/assets/87b6f713-d34f-4d21-9e4b-020ad0d0e914" />
+![img alt](https://raw.githubusercontent.com/Mr-Syntax1/text-to-speech-app/refs/heads/main/picture/Screenshot.png)
 )
 
 ---

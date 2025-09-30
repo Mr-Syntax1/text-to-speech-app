@@ -4,8 +4,7 @@ A clean, customizable **Text-to-Speech** (TTS) web app built using the **Web Spe
 
 This project started as a simple learning exercise and evolved into a more advanced app with multiple versions and features.
 
-![Uploading image.png…]()
-
+(picture/Screenshot.png)
 
 ---
 
